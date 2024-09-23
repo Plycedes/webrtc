@@ -1,3 +1,31 @@
 body {
-    background-color: gray;
+    background-color: rgb(62, 62, 62);
+}
+
+.join-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+/* Style the input field */
+input[type="text"] {
+    background-color: #ccc; /* gray background */
+    border: 1px solid #7a288a; /* purple border */
+    padding: 10px;
+    font-size: 16px;
+    width: 300px; /* adjust the width as needed */
+    border-radius: 5px;
+}
+
+/* Style the submit button */
+input[type="submit"] {
+    background-color: #7a288a; /* purple background */
+    color: #fff; /* white text */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
 }
